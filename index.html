@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Katlin_</p>
+        <h1>Estou aprendendo Programação</h1>
+        <p>Estou estudando programação utilizando o Alura</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem representativa do projeto de um site de animes">
+                    <div class="card-body">
+                        <h5 class="card-title">ChifuyuFlix</h5>
+                        <p class="card-text">ChifuyuFlix é uma página web dedicada aos animes, onde você encontra uma seleção cuidadosamente organizada de títulos, com informações sobre os estúdios responsáveis, datas de lançamento e links para assistir online. A interface é visualmente atrativa, com um design estilizado para proporcionar uma navegação agradável e uso de fontes personalizadas que combinam com a estética do universo otaku.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem representativa do projeto Monalisa">
+                    <div class="card-body">
+                        <h5 class="card-title">Monalisa</h5>
+                        <p class="card-text">Este projeto é um jogo interativo em que um rosto animado reage aos movimentos do cursor. Os olhos acompanham a posição do mouse em tempo real, criando uma experiência divertida e envolvente. Com um visual cartunesco e expressivo, o jogo proporciona uma interação leve e visualmente agradável, ideal para explorar os fundamentos da animação e da interatividade em ambientes digitais.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem representativa do projeto do Jogo de Corrida">
+                    <div class="card-body">
+                        <h5 class="card-title">Jogo de corrida</h5>
+                        <p class="card-text">Este jogo é uma divertida corrida entre quatro personagens personalizados: Gato, Gata, Chifuyu e Frieren. Cada jogador é controlado por uma tecla específica, e o objetivo é chegar primeiro à linha de chegada. Com visual carismático, cores vibrantes e uma competição animada, o jogo proporciona partidas rápidas e cheias de emoção entre amigos.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ChifuyuFlix</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>ChifuyuFlix é um site criado para apresentar uma coleção pessoal de animes favoritos, com foco em compartilhar e descobrir novas obras. Cada título inclui uma breve descrição, informações sobre o estúdio de animação, data de lançamento e links para assistir ou saber mais. A estrutura do site é organizada para oferecer uma experiência fluida, com um cabeçalho acolhedor e uma seção principal que exibe os animes em destaque de forma responsiva. Cada anime aparece em seu próprio bloco com imagem, sinopse e botões interativos. O visual é personalizado com uma paleta de cores inspirada no estilo dos animes e tipografia estilizada para reforçar a imersão no tema. O site prioriza a usabilidade, funcionando bem em diferentes dispositivos, tornando ChifuyuFlix um espaço acolhedor para qualquer fã de anime explorar novas histórias e relembrar seus títulos preferidos.</p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de um site de animes">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://katlinvic.github.io/ChifuyuFlix/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/katlinvic/ChifuyuFlix">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Monalisa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este jogo é uma experiência interativa desenvolvida para a web, onde o jogador interage com um personagem animado através do movimento do mouse. A tela exibe um rosto simpático com olhos que seguem o cursor, criando uma sensação de presença e dinamismo.</p>
+                    <p>A estética do jogo é baseada em cores vibrantes e formas simples, com um fundo roxo chamativo e um rosto desenhado com traços amigáveis. Os olhos do personagem se movem conforme a posição do cursor, o que permite uma interação divertida e instintiva. Além disso, é possível visualizar a posição do mouse ao clicar na tela, reforçando o aspecto interativo da experiência.</p>
+                    <p>O projeto é uma ótima introdução à criação de jogos e animações com foco em interatividade, utilizando recursos visuais atrativos para proporcionar uma experiência acessível e cativante para usuários de todas as idades.</p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto Monalisa">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/00001089220807sp/sketches/tkxcaa5XK">Ver projeto ao
+                        vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Jogo de corrida</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto é um jogo de corrida interativa em que quatro personagens — Gato, Gata, Chifuyu e Frieren — competem para alcançar a linha de chegada. Cada um possui uma imagem única e é controlado por uma tecla específica do teclado, permitindo partidas entre até quatro jogadores no mesmo dispositivo. A movimentação ocorre sempre que as teclas são soltas, com avanços aleatórios que tornam cada corrida imprevisível e divertida.</p>
+                    <p>O visual do jogo é leve e colorido, com gráficos personalizados e uma linha de chegada claramente definida. Quando um dos personagens vence, o nome do campeão é exibido com destaque na tela. Além disso, o fundo do jogo muda de cor conforme o foco da janela, trazendo uma interação sutil com o navegador. É uma experiência simples e envolvente, ideal para quem curte jogos casuais e quer se divertir com amigos em partidas rápidas.</p>
+                    <img src="img/projeto-3.png" alt="Imagem representativa do projeto do Jogo de Corrida" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/00001089220807sp/sketches/RWRBFa1_5">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/katlinvic">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Katlin Victoria</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
